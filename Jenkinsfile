@@ -25,7 +25,7 @@ pipeline {
       stage('changed files') {
         steps {
           sh "python3 snyk.py " +
-              "--scan-for-pr"
+              "--scan-for-push"
       }
     }
   }
