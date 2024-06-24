@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JAVA-ORGAPACHEMAVEN-6144614:
+    - '*':
+        reason: None Given
+        expires: 2024-07-24T09:40:35.614Z
+        created: 2024-06-24T09:40:35.634Z
+  SNYK-JAVA-COMH2DATABASE-31685:
+    - '*':
+        reason: None Given
+        expires: 2024-07-24T09:45:58.499Z
+        created: 2024-06-24T09:45:58.512Z
+  SNYK-JS-BRACES-6838727:
+    - '*':
+        reason: None Given
+        expires: 2024-07-24T10:07:36.828Z
+        created: 2024-06-24T10:07:36.848Z
+patch: {}
